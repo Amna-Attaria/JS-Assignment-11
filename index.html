@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <!-- Qno:01 -->
+    <div class="one">
+        <h1 class="two">Sign Up Form</h1>
+        <form onsubmit="submitForm(event)">
+            <div class="mb-3">
+                <label for="name" class="form-label fs-5">User Name:</label>
+                <input type="text" class="form-control" id="name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label fs-5">Email address:</label>
+                <input type="email" class="form-control" id="email">
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+                <label for="pass" class="form-label fs-5">User Password:</label>
+                <input type="password" class="form-control" id="pass">
+            </div>
+            <button type="submit" class="btn btn-primary d-flex m-auto">Submit</button>
+        </form>
+        <div id="output"></div>
+    </div>
+    <!-- Qno:02  -->
+
+    <!-- <p id="para">
+        This day is a reminder of the long and hard-fought struggle for independence led by 
+        <span id="moreText" style="display: none;">
+            iconic leaders like Mahatma Gandhi, Jawaharlal Nehru, and Subhas Chandra Bose. It is a time to honor the sacrifices of countless freedom fighters who laid down their lives for the nation's liberty.
+        </span>
+        <a id="link" href="#" onclick="expand()">Show more</a>
+    </p> -->
+
+<!-- Qno:03 -->
+<!-- <div class="container w-50">
+  <div class="row">
+      <div class="col">
+          <h1 class="text-center">Admission Form</h1>
+          <form action="" id="studentForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" class="fs-5" required><br><br>
+
+              <label for="age">Age:</label>
+              <input type="number" id="age" name="age" class="fs-5" required><br><br>
+
+              <label for="class">Class:</label>
+              <input type="text" id="class" name="class" class="fs-5" required><br><br>
+
+              <button type="submit" class="btn btn-primary d-flex m-auto">Add Student</button><br><br>
+          </form>
+      </div>
+  </div>
+</div>
+
+<table class="table w-50 text-center mx-auto" id="studentTable">
+  <thead>
+      <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Age</th>
+          <th scope="col">Class</th>
+          <th scope="col">Action</th>
+      </tr>
+  </thead>
+  <tbody>
+   
+  </tbody>
+</table>
+
+<div class="container w-50">
+  <div class="row">
+      <div class="col">
+          <form action="" id="editFormContent" class="hidden" >
+              <h1 class="text-center">Admission Form</h1>
+
+              <input type="hidden" id="editIndex"><br><br>
+
+              <label for="editName">Name:</label>
+              <input type="text" id="editName" name="name" class="fs-5" required><br><br>
+
+              <label for="editAge">Age:</label>
+              <input type="number" id="editAge" name="age" class="fs-5" required><br><br>
+
+              <label for="editClass">Class:</label>
+              <input type="text" id="editClass" name="class" class="fs-5" required><br><br>
+
+              <button type="submit" class="btn btn-primary d-flex m-auto">Update Student</button><br><br>
+          </form>
+      </div>
+  </div>
+</div> -->
+<script src="app.js"></script>
+  </body>
+</html>
